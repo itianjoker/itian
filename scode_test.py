@@ -1,5 +1,5 @@
 import requests
-url ='https://consul.mofa.go.kr/waitingroom/clear.html'
+url ='https://abc.go.kr/waitingroom/clear.html'
 headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'}
 html = requests.get(url, headers = headers).text
 print(html)
